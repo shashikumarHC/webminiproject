@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: aquamarine;
+    /* height: 60px;
+    font-size: 20px; */
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+.list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.list a{
+    font-size: 25px;
+    border: 1px solid white;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition-duration: 100ms;
+}
+.foods{
+    background-color:rgba(127, 255, 212, 0.688);
+    width: 100%;
+}
+.nor,.south,.chin,.ital{
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+span{
+    display: flex;
+    
+}
+.non{
+    width: 90px;
+    height: 90px;
+}
+img{
+    width: 30%;
+    padding: 10px;
+    height: 60vh;
+}
+span p{
+    display: none;
+}
+span h2{
+    padding: 20px;
+    font-size: 20px;
+}
+button{
+    font-size: 15px;
+    background-color: aqua;
+    border: none;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+}
+.nor div,.south div,.chin div,.ital div{
+    margin-top: 20px;
+}
+.nor.active h2 ,.south.active h2,.chin.active h2,.ital.active h2{
+    display: none;
+}
+.nor.active span p ,.south.active span p,.chin.active span p,.ital.active span p{
+    padding: 20px;
+    font-size: 20px;
+    display: inline;
+}
+.nor.active img,.south.active img ,.chin.active img,.ital.active img{
+    width: 30%;
+    padding: 10px;
+    height: 80vh;
+}
+.nor.active .non,.south.active .non,.chin.active .non,.ital.active .non{
+    width: 90px;
+    height: 90px;
+}
+.nor,.south,.chin,.ital{
+    border: 1px solid black;
+}
+img {
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 1px  1px rgba(0, 0, 0, 0.388);
+}
+.non
+{
+    border: none;
+    box-shadow:none;
+}
